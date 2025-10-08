@@ -3,6 +3,11 @@
 
 import { defineConfig } from '#q-app/wrappers'
 
+plugins: [
+  ['Notify']
+]
+
+
 export default defineConfig((/* ctx */) => {
   return {
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
