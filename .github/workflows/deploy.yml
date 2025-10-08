@@ -2,13 +2,13 @@ name: Deploy Quasar SPA to GitHub Pages
 
 on:
   push:
-    branches: [ "master" ]  # หรือเปลี่ยนเป็น branch ที่คุณใช้
+    branches: [ "cicd" ]  # ใช้ branch cicd ของคุณ
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # อนุญาต push ไป gh-pages
+      contents: write
 
     steps:
       - name: Checkout repository
