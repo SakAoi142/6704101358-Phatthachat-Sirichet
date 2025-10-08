@@ -3,10 +3,6 @@
 
 import { defineConfig } from '#q-app/wrappers'
 
-plugins: [
-  ['Notify']
-]
-
 
 export default defineConfig((/* ctx */) => {
   return {
@@ -96,7 +92,9 @@ export default defineConfig((/* ctx */) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: [],
+      plugins: [
+        ['Notify']
+      ],
     },
 
     // animations: 'all', // --- includes all animations
