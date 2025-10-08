@@ -7,6 +7,10 @@ plugins: [
   ['Notify']
 ]
 
+build: {
+  publicPath: '/6704101358-Phatthachat-Sirichet/'
+}
+
 
 export default defineConfig((/* ctx */) => {
   return {
